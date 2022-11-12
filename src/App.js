@@ -1,10 +1,11 @@
-import SubHead from './components/SubHead/SubHead';
 import './CSS/App.css';
+
+import Navbar from './components/navbar/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <SubHead />
+      <Navbar />
     </div>
   );
 }

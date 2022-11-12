@@ -1,11 +1,13 @@
-import './App.css';
+import './CSS/App.css';
+
+import Navbar from './components/navbar/Navbar';
+import Slider from './components/slider/Slider';
 
 function App() {
   return (
     <div className="App">
-      <h1 className="text-3xl font-bold underline">
-      Hello world! Hitesh  here
-    </h1>
+      <Navbar />
+      <Slider />
     </div>
   );
 }

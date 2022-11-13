@@ -6,14 +6,14 @@ import {
   captionStyle,
   slideNumberStyle,
   sliderData,
-} from '../../constants/sliderConstant';
+} from '../constants/sliderConstant';
 
 function Slider() {
   return (
     <div>
     <Carousel
             data={sliderData}
-            time={2000}
+            time={3500}
             width="100%"
             height="600px"
             captionStyle={captionStyle}

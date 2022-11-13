@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const SubHead = () => {
   return (
     <>
-    {/* <div className='flex justify-around items-center bg-[#1e82b6] text-white text-sm h-16'>
+    <div className='flex justify-around items-center bg-[#1e82b6] text-white text-sm h-16'>
         <div className='flex '>
             <p>IND</p>
             <i className="fi fi-sr-phone-call mx-2"></i>
@@ -21,7 +21,7 @@ const SubHead = () => {
             <i className="fi fi-sr-phone-call mx-2"></i>
             <a href="tel:+44-785-7895">+44-785-7895</a>
         </div>
-        <div className="flex items-center gap-x-12">
+        <div className="flex items-center gap-x-1">
             <Link to="/">
                 <i className="fi fi-brands-facebook text-lg mx-1"></i>
             </Link>
@@ -41,8 +41,8 @@ const SubHead = () => {
                 <i className="fi fi-brands-whatsapp text-lg mx-1"></i>
             </Link>
         </div>
-    </div> */}
-    <header class=" bg-[#1e82b6] text-white body-font">
+    </div>
+    {/* <header class=" bg-[#1e82b6] text-white body-font">
       <div class="container flex flex-wrap  p-5  flex-col md:flex-row items-center justify-between">
         <a class="flex  items-centermb-4 md:mb-0 mx-10">
           <div className="flex  text-white ">
@@ -92,22 +92,8 @@ const SubHead = () => {
                 <i className="fi fi-brands-whatsapp text-lg mx-1"></i>
             </Link>
         </nav>
-        {/* <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
-          Button
-          <svg
-            fill="none"
-            stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            class="w-4 h-4 ml-1"
-            viewBox="0 0 24 24"
-          >
-            <path d="M5 12h14M12 5l7 7-7 7"></path>
-          </svg>
-        </button> */}
       </div>
-    </header>
+    </header> */}
     </>
   );
 };

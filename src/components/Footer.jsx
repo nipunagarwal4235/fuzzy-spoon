@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../../images/logo.jpg'
+import Logo from '../images/logo.jpg'
 const Footer = () => {
     return (
         <footer className="text-gray-600 body-font">
@@ -15,7 +15,7 @@ const Footer = () => {
                         <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">OUR SERVICES</h2>
                         <nav className="list-none mb-10">
                             <li className='mb-1'>
-                                <a className="text-gray-600 hover:text-gray-800 cursor-pointer ">Company Formation in India</a>
+                                <a className="text-gray-600 hover:text-gray-800 cursor-pointer " href='/'>Company Formation in India</a>
                             </li>
                             <li className='mb-1'>
                                 <a className="text-gray-600 hover:text-gray-800 cursor-pointer">Starting Business in India</a>

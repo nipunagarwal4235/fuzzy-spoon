@@ -3,7 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import Logo from '../../images/logo.jpg';
-import SubHead from '../SubHead/SubHead';
+import SubHead from './SubHead';
 
 function Navbar() {
   return (
@@ -19,7 +19,7 @@ function Navbar() {
             <Link to="/"  class="mr-5 hover:text-gray-900 cursor-pointer">About US</Link>
             <Link to="/"  class="mr-5 hover:text-gray-900 cursor-pointer">Services</Link>
             <Link to="/"  class="mr-5 hover:text-gray-900 cursor-pointer">Newsroom</Link>
-            <Link to="/"  class="mr-5 hover:text-gray-900 cursor-pointer">Gallery</Link>
+            <Link to="/gallery"  class="mr-5 hover:text-gray-900 cursor-pointer">Gallery</Link>
             <Link to="/"  class="mr-5 hover:text-gray-900 cursor-pointer">Blog</Link>
             <Link to="/"  class="mr-5 hover:text-gray-900 cursor-pointer">Contact Us</Link>
             <Link  to="/" class="mr-5 hover:text-gray-900 cursor-pointer">Other</Link>
